@@ -103,11 +103,14 @@ Once it has moved into the container NOW to CENTER add negative margins and posi
 ` width: 80px;`<br>
 ` height: 80px;`<br>
 ` position: absolute;`<br>
-` top: 50%; /* Brings the child container to the HALF of the edge in the middle of the container but that is not the center */`<br>
-` left: 50%; `<br>
+` top: 50%;              /* Brings the child container to the HALF point of container from the top at its edge but that is not the center */`<br>
+` left: 50%;            /* Brings the child container to the HALF point of container from the left at its edge */`<br>
 ` margin: -40px 0 0 -40px; `<br>
 `/* to bring to the exact center we need to add negative margins which are half of the width and height of the CHILD CONTAINER */`<br>
 `/* Apply negative top and left margins to truly center the element */`<br>
+`/* this way the center of the child is in line with the center of the container */`<br>
+
+![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/dc9fcfe6-3492-4daf-99b1-f21f686a341a)<br>
 
 When the height and the width of the child container is not known we can use the TRANSFORM property instead of margins:<br>
 `.child {`<br>
