@@ -118,8 +118,10 @@ When the height and the width of the child container is not known we can use the
 `}`<br>
 
 Balloons are center of each item<br>
-![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/c6e55e6c-20af-4325-a21b-6dbbae50a3a5)<br>
-![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/3e54aeb5-2c38-4984-8a2d-72ae5f770934)
+![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/c6e55e6c-20af-4325-a21b-6dbbae50a3a5)<br><br>
+![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/0b42ec8a-c0a7-42c6-aab2-35d40d9c9c67)
+
+
 
 
 
