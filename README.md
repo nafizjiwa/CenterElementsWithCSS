@@ -3,9 +3,9 @@ Center elments horizontally, and vertically.
 
 To center text in the middle of a div: `<div>` <br>
 `html` <br>
-`<div>`
- ` <h1>Hello world</h1>`
-`</div>` <br>
+`<div>
+ <h1>Hello world</h1>
+</div>` <br>
 `css` <br>
 `h1 { text-align: center; }` <br>
 
