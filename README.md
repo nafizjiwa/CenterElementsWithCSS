@@ -74,16 +74,16 @@ Changing the margin right to auto allows the right side to take as much of the s
   `display: flex;`<br>
    `}`<br>    
  ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/56b34dcf-ad9a-4865-846f-44e7567a9249)<br>
- `justify-content: center;` centers horizontally <br>
+ `justify-content: center;` centers horizontally` <br>
  ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/42ba381e-5706-41be-9286-c8cfb6897ec0)<br>
- `align-items: center;`centers vertically <br>
+ `align-items: center;`centers vertically` <br>
  ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/82ed127d-8e1b-4133-9f01-e69320ff0449)<br>
  `.container {`<br>
   `display: flex;`<br>
    `justify-content: center;`<br>
    `align-items: center;`<br>
    `}`<br>
-
+***
  ###### TO CENTER with ABSOLUTE POSITIONING and NEGATIVE MARGINS<br>
  ADD to the child container:<br>
  `.child {`<br>
@@ -96,14 +96,24 @@ To make the div move in relation to the container we ADD to the container:<br>
 ` position: relative;`<br>
 `}`<br>
 ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/8c5907c4-5143-4098-8100-ebecaaeff7c1)<br>
-NOW TO CENTER ADD NEGATIVE MARGINS AND DISTANCE FROM TOP AND LEFT and relative to the specific container its in:<br>
-` /* Center vertically and horizontally */`<br>
+
+Once it has moved into the container NOW to CENTER add negative margins and positive distance from the top and left of container:<br>
+`/* Center vertically and horizontally */`<br>
 `.child {`<br>
+` width: 80px;`<br>
+` height: 80px;`<br>
 ` position: absolute;`<br>
-` top: 50%;`<br>
-` left: 50%;`<br>
-` margin: -25px 0 0 -25px; `<br>
-` /* Apply negative top and left margins to truly center the element */`<br>
+` top: 50%; /* Brings the child container to the HALF of the edge in the middle of the container but that is not the center */`<br>
+` left: 50%; `<br>
+` margin: -40px 0 0 -40px; `<br>
+`/* to bring to the exact center we need to add negative margins which are half of the width and height of the CHILD CONTAINER */`<br>
+`/* Apply negative top and left margins to truly center the element */`<br>
+
+When the height and the width of the child container is not known we can use the TRANSFORM property instead of margins:<br>
+`.child {`<br>
+`transform: translate(-50%,-50%);`<br>
+`}`<br>
+
 
 
  
