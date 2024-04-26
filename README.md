@@ -58,12 +58,16 @@ CHANGE THE CHILD MARGIN VALUES:<br>
 `.child {`<br>
    ` margin-left: auto;`<br>
 `}`<br>
+Changing the margin left to auto allows the left side to take as much of the space available and pushed the box to far right.<br>
 ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/d33a1fe6-8d35-4b98-b7ba-320f96996792)<br>
 To move the box to the far left side of the container<br>
 CHANGE THE CHILD MARGIN VALUES:<br>
 `.child {`<br>
    ` margin-right: auto;`<br>
 `}`<br>
+Changing the margin righ to auto allows the right side to take as much of the space available and pushed the box to far left.<br>
+![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/db675877-be3e-4ef2-9f1e-c68a0d119f8a)
+
 
  
 
