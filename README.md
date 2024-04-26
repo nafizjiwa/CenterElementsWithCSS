@@ -65,9 +65,10 @@ CHANGE THE CHILD MARGIN VALUES:<br>
 `.child {`<br>
    ` margin-right: auto;`<br>
 `}`<br>
-Changing the margin righ to auto allows the right side to take as much of the space available and pushed the box to far left.<br>
+Changing the margin right to auto allows the right side to take as much of the space available and pushed the box to far left.<br>
 ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/db675877-be3e-4ef2-9f1e-c68a0d119f8a)
-
+***
+ ###### TO CENTER IN FLEX BOX<br>
 
  
 
