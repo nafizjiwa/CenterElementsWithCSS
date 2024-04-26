@@ -86,14 +86,26 @@ Changing the margin right to auto allows the right side to take as much of the s
 
  ###### TO CENTER with ABSOLUTE POSITIONING and NEGATIVE MARGINS<br>
  ADD to the child container:<br>
-  /* Center vertically and horizontally */<br>
-.child {<br>
-  position: absolute;<br>
-  top: 50%;<br>
-  left: 50%;<br>
-  margin: -25px 0 0 -25px; <br>
-  /* Apply negative top and left margins to truly center the element */<br>
-}<br>
+ `.child {`<br>
+ `top: 1%;`
+ `left: 2%;`
+`}`<br>
+![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/deaa7a99-e84c-458f-8e02-b46ad8e4fe01)<br>
+To make the div move in relation to the container we ADD to the container:<br>    
+`.container {`<br>
+` position: relative;`<br>
+`}`<br>
+![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/8c5907c4-5143-4098-8100-ebecaaeff7c1)<br>
+NOW TO CENTER ADD NEGATIVE MARGINS AND DISTANCE FROM TOP AND LEFT and relative to the specific container its in:<br>
+` /* Center vertically and horizontally */`<br>
+`.child {`<br>
+` position: absolute;`<br>
+` top: 50%;`<br>
+` left: 50%;`<br>
+` margin: -25px 0 0 -25px; `<br>
+` /* Apply negative top and left margins to truly center the element */`<br>
+
+
  
  
 
