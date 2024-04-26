@@ -69,6 +69,11 @@ Changing the margin right to auto allows the right side to take as much of the s
 ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/db675877-be3e-4ef2-9f1e-c68a0d119f8a)
 ***
  ###### TO CENTER IN FLEX BOX<br>
+ ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/82ed127d-8e1b-4133-9f01-e69320ff0449)<br>
+ Add to the div container class:<br>
+ `display: flex;`<br>
+   `justify-content: center;` centers horizontally <br>
+    `align-items: center;`centers vertically <br>
 
  
 
