@@ -74,9 +74,9 @@ Changing the margin right to auto allows the right side to take as much of the s
   `display: flex;`<br>
    `}`<br>    
  ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/56b34dcf-ad9a-4865-846f-44e7567a9249)<br>
- `justify-content: center;` centers horizontally` <br>
+ `justify-content: center; centers horizontally` <br>
  ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/42ba381e-5706-41be-9286-c8cfb6897ec0)<br>
- `align-items: center;`centers vertically` <br>
+ `align-items: center;centers vertically` <br>
  ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/82ed127d-8e1b-4133-9f01-e69320ff0449)<br>
  `.container {`<br>
   `display: flex;`<br>
@@ -84,7 +84,7 @@ Changing the margin right to auto allows the right side to take as much of the s
    `align-items: center;`<br>
    `}`<br>
 ***
- ###### TO CENTER with ABSOLUTE POSITIONING and NEGATIVE MARGINS<br>
+ ###### TO CENTER with ABSOLUTE POSITIONING and NEGATIVE MARGINS <br>
  ADD to the child container:<br>
  `.child {`<br>
  `top: 1%;`
