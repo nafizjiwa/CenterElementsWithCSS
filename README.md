@@ -22,5 +22,6 @@ To center everything in the container add the css property to the container not 
 `css` <br>
  `.container { text-align: center; }` <br>
 
-![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/36e46f00-b6d7-42c2-bfb5-bcd24eb98675)
+![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/36e46f00-b6d7-42c2-bfb5-bcd24eb98675)<br>
+Here the property in the container is **inherited** from the container div down to the other element to center them. 
 
