@@ -1,2 +1,2 @@
 # CenterElementsWithCSS
-Center ements horizontally, and vertically.
+Center elments horizontally, and vertically.
