@@ -1,4 +1,4 @@
-![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/8f838f1b-4f7f-4f2e-b5b4-43bd805d0a52)![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/e28bd691-e32f-4c65-ac0f-7e8e620b1c57)# CenterElementsWithCSS
+# CenterElementsWithCSS
 Center elments horizontally, and vertically.
 
 ### To center text in the middle of a div: `<div>` <br>
@@ -59,7 +59,11 @@ CHANGE THE CHILD MARGIN VALUES:<br>
    ` margin-left: auto;`<br>
 `}`<br>
 ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/d33a1fe6-8d35-4b98-b7ba-320f96996792)<br>
-
+To move the box to the far left side of the container<br>
+CHANGE THE CHILD MARGIN VALUES:<br>
+`.child {`<br>
+   ` margin-right: auto;`<br>
+`}`<br>
 
  
 
