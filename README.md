@@ -15,7 +15,7 @@ Center elments horizontally, and vertically.
 To center everything in the container add the css property to the container not just the h1 element:<br>
 `html` <br>
 `<div class="container">`<br>
- `<h1>Hello world</h1>`<br>
+ `<h1>Hello world</h1>`<br> 
  `<p>I'd like to be centered too</p>`
  `<p>Same here!</p>`
 `</div>` <br>
@@ -68,12 +68,38 @@ CHANGE THE CHILD MARGIN VALUES:<br>
 Changing the margin right to auto allows the right side to take as much of the space available and pushed the box to far left.<br>
 ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/db675877-be3e-4ef2-9f1e-c68a0d119f8a)
 ***
- ###### TO CENTER IN FLEX BOX<br>
- ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/82ed127d-8e1b-4133-9f01-e69320ff0449)<br>
+###### TO CENTER IN FLEX BOX<br>
  Add to the div container class:<br>
- `display: flex;`<br>
-   `justify-content: center;` centers horizontally <br>
-    `align-items: center;`centers vertically <br>
+  `.container {`<br>
+  `display: flex;`<br>
+   `}`<br>    
+ ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/56b34dcf-ad9a-4865-846f-44e7567a9249)<br>
+ `justify-content: center;` centers horizontally <br>
+ ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/42ba381e-5706-41be-9286-c8cfb6897ec0)<br>
+ `align-items: center;`centers vertically <br>
+ ![image](https://github.com/nafizjiwa/CenterElementsWithCSS/assets/56348190/82ed127d-8e1b-4133-9f01-e69320ff0449)<br>
+ `.container {`<br>
+  `display: flex;`<br>
+   `justify-content: center;`<br>
+   `align-items: center;`<br>
+   `}`<br>
+
+ ###### TO CENTER with ABSOLUTE POSITIONING and NEGATIVE MARGINS<br>
+ ADD to the child container:<br>
+  /* Center vertically and horizontally */<br>
+.child {<br>
+  position: absolute;<br>
+  top: 50%;<br>
+  left: 50%;<br>
+  margin: -25px 0 0 -25px; <br>
+  /* Apply negative top and left margins to truly center the element */<br>
+}<br>
+ 
+ 
+
+
+
+
 
  
 
